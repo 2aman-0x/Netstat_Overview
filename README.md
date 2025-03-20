@@ -15,27 +15,27 @@ To identify number of connection on a given port or IP.
 
 (t-tcp, u-udp, n-numerical addr, l-listning port, p-PID programname)
 
-- To see all the sockets
+- To see all the sockets  
 ```netstat -a | more```
-- List all the TCP ports
+- List all the TCP ports  
 ```netstat -at```
-- List all the TCP v6 ports
+- List all the TCP v6 ports  
 ```netstat -6at```
-- List all the UDP ports
+- List all the UDP ports  
 ```netstat -au```
-- List all listning ports
+- List all listning ports  
 ```netstat -l```
-- To view the numerical address
+- To view the numerical address  
 ```netstat -p```
-- To view the PID of the Programme of connection
+- To view the PID of the Programme of connection  
 ```netstat -p```
-- To view the routing table
+- To view the routing table  
 ```netstat -r```
-- To check number of connection from a specific IP
+- To check number of connection from a specific IP  
 ```netstat -an | grep <IP>```
-- To get the list of all the interface
+- To get the list of all the interface  
 ```netstat -i```
-- Which port a process is using?
+- Which port a process is using?  
 ```netstat -ap | grep <process_name>```
-- How to see statistics by protocol?
+- How to see statistics by protocol?  
 ```netstat -s```
